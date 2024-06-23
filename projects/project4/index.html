@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <h2 id="heading">Online Calculator</h2>
+    <div id="main">
+        <button id="but" onclick="button1()">ENTER FIRST NUMBER</button><br><br>
+        <button id="but" onclick="button2()">ENTER SECOND NUMBER</button><br><br>
+        <button id="row1" onclick="addition()"><b>+</b></button>
+        <button id="row1" onclick="substraction()"><b>-</b></button>
+        <button id="row1" onclick="multiplication()"><b>*</b></button> 
+        <button id="row1" onclick="division()"><b>/</b></button><br><br>
+        <button id="row2" onclick="exponential()"><b>x^y</b></button>
+        <button id="row2" onclick="modulus()"><b>%</b></button><br><br>
+        <button id="row3" onclick="sqaure()"><b>Sqr</b></button>
+        <button id="row3" onclick="cube()"><b>Cube</b></button>
+
+        <textarea name="output" id="output" cols="1" rows="1" onclick="button1()" ></textarea>
+    </div>
+</body>
+</html>

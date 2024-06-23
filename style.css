@@ -1,0 +1,98 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content p {
+  margin: 0;
+}
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer-links li:last-child {
+  margin-right: 0;
+}
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-links li a:hover {
+  color: #ccc;
+}
+
+.div-box {
+  border: 2px solid #846e63;
+  border-radius: 10px;
+  width: 90vw;
+  height: 90%;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-family: Playfair Display;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  font-family: league spartan;
+  font-size: larger;
+  height: auto;
+}
+
+.home-paragraphs {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.vector {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 400px;
+}
+
+.form-check .form-check-input {
+  float: none;
+  margin-left: -1.5em;
+}
+
+@media (max-width: 600px) {
+  .vector {
+    width: 70%;
+    height: 90%;
+  }
+}
+@media (min-width: 601px) and (max-width: 1200px) {
+  .vector {
+    width: 55%;
+  }
+}
+@media (min-width: 1201px) {
+  .vector {
+    width: 50%;
+  }
+}

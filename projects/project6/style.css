@@ -1,0 +1,11 @@
+#main{
+    padding: 60px 50px;
+    text-align: center;
+    font-size: larger;
+}
+#button{
+    margin: 0px 50px;
+    height: 40px;
+    width: 75px;
+    font-size: large;
+}

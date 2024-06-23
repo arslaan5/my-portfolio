@@ -1,0 +1,30 @@
+#body{
+    background-color:darkblue;
+}
+#display{
+    margin-left: 40.5%;
+    width: 200px;
+    height: 20px;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    color:greenyellow;
+}
+#main{
+    text-align: center;
+    margin: 250px;
+}
+#button{
+    border: 2px solid;
+    border-radius: 2px;
+    border-color: greenyellow;
+    background: none;
+    color:deeppink;
+    font-size: larger;
+    font-family: monospace;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#button:hover{
+    color: greenyellow;
+    border-color: deeppink;
+}
